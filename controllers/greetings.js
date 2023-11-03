@@ -42,7 +42,7 @@ const greetings = async (req,res)=>{
   {input:'I know' , output:'non-greeting'},
   {input:'No, ma\am' , output:'non-greeting'},
   {input:'Yes sir' , output:'non-greeting'},
-  {input:'Your\e welcome' , output:'non-greeting'},
+  {input:'You\re welcome' , output:'non-greeting'},
   {input:'Sorry' , output:'non-greeting'},
   {input:'Maybe' , output:'non-greeting'},
   {input:'Help' , output:'non-greeting'},
@@ -50,5 +50,10 @@ const greetings = async (req,res)=>{
   {input:'You' , output:'non-greeting'},
   {input:'You' , output:'greeting'},
   {input:'Congratulations' , output:'non-greeting'},
+  {input:'How you dey?', output:'greeting'},
+  {input:'How your side?', output:'greeting'},
+  {input:'How are you?', output:'non-greeting'},
+  {input:'How far', output:'greeting'},
+  {input:'How far', output:'greeting'},
   
  ]
