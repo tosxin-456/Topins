@@ -1,4 +1,4 @@
-const brain_js  = require('brain.js')
+const brain  = require('brain.js')
 
 const greetings = async (req,res)=>{
 
