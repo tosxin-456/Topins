@@ -58,4 +58,13 @@ const greetings = async (req,res)=>{
   {input:'What\s up with you', output:'greeting'},
   {input:'What\s going on', output:'greeting'},
   {input:'What\s going on', output:'non-greeting'},
+  {input:'Bonjour', output:'greeting'},
+  {input:'Salut', output:'greeting'},
+  {input:'Bonne nuit', output:'greeting'},
+  {input:'Welcome', output:'greeting'},
+  {input:'Salutations', output:'greeting'},
+  {input:'Comment ça va', output:'greeting'},
+  {input:'Enchanté(e)', output:'non-greeting'},
+  {input:'Bonsoir', output:'greeting'},
+  {input:'Coucou', output:'greeting'},
  ]
