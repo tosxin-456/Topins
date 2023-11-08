@@ -67,4 +67,5 @@ const greetings = async (req,res)=>{
   {input:'Enchanté(e)', output:'non-greeting'},
   {input:'Bonsoir', output:'greeting'},
   {input:'Coucou', output:'greeting'},
+  {input:'inakwana', ouput:'greeting'}
  ]
